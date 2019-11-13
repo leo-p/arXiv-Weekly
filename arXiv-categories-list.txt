@@ -1,6 +1,0 @@
-cs.CV
-cs.CL
-cs.LG
-cs.AI
-cs.NE
-stat.ML
