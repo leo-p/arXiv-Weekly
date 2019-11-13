@@ -58,7 +58,7 @@ def build_multipart_email(sender_email, receiver_email, papers):
 
     # Define subject, sender, and receiver
     message = MIMEMultipart("alternative")
-    message["Subject"] = f"arXiv Weekly: {papers[0]['title']} & 2 more"
+    message["Subject"] = f"🗞 arXiv Weekly: {papers[0]['title']} & 2 more"
     message["From"] = sender_email
     message["To"] = receiver_email
 
